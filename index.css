@@ -1,0 +1,142 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+main {
+	max-width: 360px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	/*loaded 300 and 600 weight*/
+	}
+main h1 {color: red;}
+
+
+form.myForm section {
+	padding: .5rem 2%;
+	margin-bottom: .3rem;
+}
+
+#normal {
+    border-radius: 20px;
+}
+
+form.myForm label {display: block;}
+form.myForm span {
+	color: #666; 
+	padding: .1rem;
+	font-weight: 600;
+	font-size: .8rem;
+}
+
+.marg-left {
+	margin-left: .5rem;
+}
+
+
+form.myForm .myInput {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	border: 1px solid #b6b6b6;
+	font-size: 120%;
+	width: 100%;
+	background-color: white;
+    border-radius: 20px;
+	padding: .4rem 2%;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+form.myForm .submitButton {
+	border-radius: 20px;
+	background: red;
+	color: white;
+	border: none;
+	width: 70%;
+	padding: .5rem;
+	text-align: center;
+	font-size: 1rem;
+    display: block;
+    margin: auto;
+}
+
+.time-div {
+	display: flex;
+	justify-content: flex-start;
+	flex-wrap: nowrap;
+}
+
+.time-left {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	border: 1px solid #b6b6b6;
+	font-size: 120%;
+	background-color: white;
+    border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	padding: .4rem 2%;
+    padding-left: 10px;
+    padding-right: 10px;
+	margin-right: 0px;
+}
+
+
+.time-right {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+	border: 1px solid #b6b6b6;
+	font-size: 120%;
+
+	background-color: white;
+    border-top-right-radius: 20px;
+	border-bottom-right-radius: 20px;
+	padding: .4rem 2%;
+    padding-left: 10px;
+    padding-right: 10px;
+	margin-left: 0px;
+}
+
+
+
+form {
+    background-color: #e0e2e5;
+    display: block;
+    border: 2px solid #666;
+    border-radius: 20px;
+    padding: 10px;
+    padding-top: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+	margin-bottom: 20px;
+    overflow: hidden;
+    background-color: red;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: rosybrown;
+}
+
+
